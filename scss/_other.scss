@@ -1,34 +1,5 @@
-#home {
-	background-color: $gray-dark;
-	padding: 40px 0;
-}
-
-#cta-1 {
-background-color: $gray-lighter;
-padding: 40px 0;
-}
-
-#testimonials {
-	background-color: $gray-dark;
-}
-
-#cta-2 {
-	background-color: $blue;
-	padding: 40px 0;
-}
-
-#services {
-	background-color: $gray-dark;
-}
-
-#cta-3 {
-	background-color: $gray-dark;
-	padding: 40px 0;
-}
-
-#facts {
-	background-color: $gray-dark;
-	padding: 40px 0;
+#about {
+	background-color: $gray-lighter;
 }
 
 #footer {
@@ -239,48 +210,6 @@ padding: 40px 0;
     opacity: 1;
     color: $white;
 }
-
-.parallax {
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.parallax-overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(img/pattern.png);
-    background-repeat: repeat;
-    background-color: rgba(0,0,0,0.3);
-}
-#home {
-    background-image: url(img/showcase-1.jpg);
-    padding: 160px 0;
-    width: 100%;
-    height: 100%;
-}
-#testimonials {
-    background:url(img/showcase-3.jpg);
-    padding: 80px 0;
-}
-#services {
-    background:url(img/showcase-2.jpg);
-    padding: 80px 0;
-}
-#facts {
-    background:url(img/showcase-5.jpg);
-    padding: 80px 0;
-}
-
-.main-flex-slider {
-    overflow: hidden;
-}
-
 .about-col .fa {
 	width: 90px;
 	height: 90px;
