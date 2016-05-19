@@ -1,0 +1,592 @@
+/*
+Theme Name: _tk-child
+Author: Nick Wong
+Author URI: https://quick-nickwong.c9users.io/
+Description: Quick: A responsive, single-page theme for WordPress
+Template: _tk-master
+*/
+/* line 8, ../scss/_mixins.scss */
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 12, ../scss/_mixins.scss */
+.message, .success {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+/* line 18, ../scss/_mixins.scss */
+.success {
+  border-color: green;
+}
+
+/* line 1, ../scss/_scaffolding.scss */
+body {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  line-height: 1.42857;
+  color: #333333;
+  background-color: white;
+}
+
+/* line 9, ../scss/_scaffolding.scss */
+a {
+  color: #333333;
+}
+/* line 13, ../scss/_scaffolding.scss */
+a:hover, a:focus {
+  color: #25cbf5;
+  text-decoration: none;
+}
+
+/* line 20, ../scss/_scaffolding.scss */
+html,
+body {
+  height: 100%;
+}
+
+/* line 4, ../scss/_typography.scss */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #333333;
+}
+
+/* line 12, ../scss/_typography.scss */
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+/* line 16, ../scss/_typography.scss */
+h1 {
+  font-size: 4em;
+}
+
+/* line 19, ../scss/_typography.scss */
+h2 {
+  font-size: 2em;
+}
+
+/* line 22, ../scss/_typography.scss */
+h3 {
+  font-size: 1.3em;
+}
+
+/* line 25, ../scss/_typography.scss */
+h4 {
+  font-size: 1em;
+}
+
+/* line 30, ../scss/_typography.scss */
+.home-text {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.15);
+  margin: 20px 0;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+/* line 40, ../scss/_typography.scss */
+.home-h1 {
+  color: #25cbf5;
+  font-size: 2.5em;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  /* line 49, ../scss/_typography.scss */
+  .home-h1 {
+    font-size: 4.5em;
+  }
+}
+/* line 54, ../scss/_typography.scss */
+.home-h1 > span {
+  color: white;
+}
+
+/* line 58, ../scss/_typography.scss */
+.lead {
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+
+/* line 1, ../scss/_navbar.scss */
+.navbar-default {
+  background-color: white;
+  font-family: "Maven Pro", sans-serif;
+  text-transform: uppercase;
+  border: none;
+  z-index: 10000;
+}
+
+/* line 9, ../scss/_navbar.scss */
+.navbar-default .navbar-brand {
+  font-weight: 700;
+  color: #333333;
+  font-size: 1.5em;
+}
+
+/* line 15, ../scss/_navbar.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #333333;
+}
+/* line 18, ../scss/_navbar.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #25cbf5;
+}
+
+/* line 1, ../scss/_buttons.scss */
+.btn-theme, .btn-dark, .btn-cta, .btn-cta-o {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8em;
+  font-weight: 200;
+  text-transform: uppercase;
+  border-radius: 0;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+/* line 12, ../scss/_buttons.scss */
+.btn-dark {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.3);
+  color: #666666;
+}
+/* line 19, ../scss/_buttons.scss */
+.btn-dark:hover, .btn-dark:focus {
+  background: #000;
+  color: white;
+}
+
+/* line 25, ../scss/_buttons.scss */
+.btn-cta {
+  background-color: #25cbf5;
+  color: white;
+}
+/* line 31, ../scss/_buttons.scss */
+.btn-cta:hover, .btn-cta:focus {
+  background-color: #25cbf5, 10%;
+  color: white;
+}
+
+/* line 37, ../scss/_buttons.scss */
+.btn-cta-o {
+  color: white;
+  border: 1px solid white;
+}
+/* line 43, ../scss/_buttons.scss */
+.btn-cta-o:hover, .btn-cta-o:focus {
+  background-color: white;
+  color: #333333;
+}
+
+/* line 1, ../scss/_forms.scss */
+.form-control {
+  border-radius: 0;
+  margin-bottom: 30px;
+  font-size: 12px;
+  color: #666666;
+  background: white;
+  transition: all 200ms ease-in;
+}
+
+/* line 10, ../scss/_forms.scss */
+label {
+  font-weight: 200;
+}
+
+/* line 14, ../scss/_forms.scss */
+.form-control:focus {
+  background: #f5f4f2;
+  border-color: #666666;
+}
+
+/* line 1, ../scss/_other.scss */
+#home {
+  background-color: #333333;
+  padding: 40px 0;
+}
+
+/* line 6, ../scss/_other.scss */
+#cta-1 {
+  background-color: #f5f4f2;
+  padding: 40px 0;
+}
+
+/* line 11, ../scss/_other.scss */
+#testimonials {
+  background-color: #333333;
+}
+
+/* line 15, ../scss/_other.scss */
+#cta-2 {
+  background-color: #25cbf5;
+  padding: 40px 0;
+}
+
+/* line 20, ../scss/_other.scss */
+#services {
+  background-color: #333333;
+}
+
+/* line 24, ../scss/_other.scss */
+#cta-3 {
+  background-color: #333333;
+  padding: 40px 0;
+}
+
+/* line 29, ../scss/_other.scss */
+#facts {
+  background-color: #333333;
+  padding: 40px 0;
+}
+
+/* line 34, ../scss/_other.scss */
+#footer {
+  background-color: #333333;
+}
+
+/* line 42, ../scss/_other.scss */
+.color-reverse,
+.color-reverse h2,
+.color-reverse h3,
+.color-reverse .icon
+.color-reverse ul > li > a {
+  color: white;
+}
+
+/* line 47, ../scss/_other.scss */
+.color-reverse .icon:before,
+.color-reverse .icon:after {
+  border-bottom-color: white;
+}
+
+/* line 53, ../scss/_other.scss */
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+/* line 58, ../scss/_other.scss */
+.section-heading {
+  margin-bottom: 40px;
+}
+
+/* line 63, ../scss/_other.scss */
+.icon {
+  display: inline-block;
+  font-size: 1.3em;
+  line-height: 1.42857;
+  width: 130px;
+  margin: 0 auto;
+  position: relative;
+  color: #25cbf5;
+}
+
+/* line 74, ../scss/_other.scss */
+.icon:before,
+.icon:after {
+  display: inline-block;
+  content: "";
+  border-bottom: 1px solid #25cbf5;
+  position: absolute;
+  top: 10px;
+  width: 50px;
+}
+
+/* line 83, ../scss/_other.scss */
+.icon:before {
+  left: 0;
+}
+
+/* line 87, ../scss/_other.scss */
+.icon:after {
+  right: 0;
+}
+
+/* line 91, ../scss/_other.scss */
+.icon-bg {
+  color: white;
+}
+
+/* line 96, ../scss/_other.scss */
+.icon-bg:before,
+.icon-bg:after {
+  border-bottom-color: white;
+}
+
+/* line 100, ../scss/_other.scss */
+.about-col .fa {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  color: #666666;
+  border-radius: 50%;
+  background-color: #f5f4f2;
+}
+
+/* line 109, ../scss/_other.scss */
+.services-col {
+  color: #25cbf5;
+}
+
+/* line 113, ../scss/_other.scss */
+.services-col h3 {
+  color: #25cbf5;
+  margin-top: 0;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 1.75em;
+}
+
+/* line 121, ../scss/_other.scss */
+.services-col p {
+  color: #666666;
+  letter-spacing: 1px;
+  font-weight: 200;
+  line-height: 2;
+}
+
+/* line 128, ../scss/_other.scss */
+.services-col .fa {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: white;
+  background-color: #25cbf5;
+  border-radius: 35px;
+  margin-bottom: 10px;
+}
+
+/* line 139, ../scss/_other.scss */
+.contact-hours .fa {
+  color: #25cbf5;
+}
+
+/* line 143, ../scss/_other.scss */
+.social-channels .fa {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #666666;
+  background-color: #f5f4f2;
+  margin-bottom: 10px;
+}
+
+/* line 153, ../scss/_other.scss */
+.author {
+  color: #25cbf5;
+  font-size: 1.1em;
+}
+
+/* line 158, ../scss/_other.scss */
+.item-img-wrap {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* line 164, ../scss/_other.scss */
+.item-img-wrap img {
+  transition: all 200ms linear;
+}
+
+/* line 167, ../scss/_other.scss */
+.item-img-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* line 174, ../scss/_other.scss */
+.item-img-overlay span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/plus.png) no-repeat center center rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 250ms linear;
+}
+
+/* line 185, ../scss/_other.scss */
+.item-img-wrap:hover .item-img-overlay span {
+  opacity: 1;
+}
+
+/* line 188, ../scss/_other.scss */
+.item-img-wrap:hover img {
+  transform: scale(1.1);
+}
+
+/* line 197, ../scss/_other.scss */
+.about-col,
+.team-col,
+.services-col,
+.portfolio-col,
+.facts-col,
+.blog-col {
+  margin-bottom: 40px;
+}
+
+/* line 201, ../scss/_other.scss */
+.blog-col span {
+  color: #666666;
+  font-size: 0.9em;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* line 208, ../scss/_other.scss */
+.services-col {
+  color: #25cbf5;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  /* line 214, ../scss/_other.scss */
+  .services-col {
+    text-align: left;
+  }
+}
+/* line 219, ../scss/_other.scss */
+.scrollToTop {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 999999;
+  display: none;
+  background: #25cbf5;
+  opacity: 0.5;
+  -webkit-transform: all 0.3s;
+  -moz-transform: all 0.3s;
+  transform: all 0.3s;
+}
+
+/* line 237, ../scss/_other.scss */
+.scrollToTop:hover {
+  text-decoration: none;
+  opacity: 1;
+  color: white;
+}
+
+/* line 243, ../scss/_other.scss */
+.parallax {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* line 251, ../scss/_other.scss */
+.parallax-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/pattern.png);
+  background-repeat: repeat;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 261, ../scss/_other.scss */
+#home {
+  background-image: url(img/showcase-1.jpg);
+  padding: 160px 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 267, ../scss/_other.scss */
+#testimonials {
+  background: url(img/showcase-3.jpg);
+  padding: 80px 0;
+}
+
+/* line 271, ../scss/_other.scss */
+#services {
+  background: url(img/showcase-2.jpg);
+  padding: 80px 0;
+}
+
+/* line 275, ../scss/_other.scss */
+#facts {
+  background: url(img/showcase-5.jpg);
+  padding: 80px 0;
+}
+
+/* line 280, ../scss/_other.scss */
+.main-flex-slider {
+  overflow: hidden;
+}
+
+/* line 284, ../scss/_other.scss */
+.about-col .fa {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  color: #666666;
+  border-radius: 50%;
+  background-color: #f5f4f2;
+  transition: 0.7s ease-in-out;
+}
+
+/* line 294, ../scss/_other.scss */
+.about-col:hover .fa {
+  background-color: #25cbf5;
+  color: white;
+  transform: rotateY(360deg);
+}
+
+/* line 300, ../scss/_other.scss */
+.services-col .fa {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: white;
+  background-color: #25cbf5;
+  border-radius: 35px;
+  margin-bottom: 10px;
+  transition: 0.7s ease-in-out;
+}
+
+/* line 312, ../scss/_other.scss */
+.services-col:hover .fa {
+  background-color: #25cbf5;
+  color: white;
+  transform: rotateY(360deg);
+}
