@@ -40,7 +40,7 @@ a {
 }
 /* line 13, ../scss/_scaffolding.scss */
 a:hover, a:focus {
-  color: #25cbf5;
+  color: #ceeaeb;
   text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ h4 {
 
 /* line 40, ../scss/_typography.scss */
 .home-h1 {
-  color: #25cbf5;
+  color: #ceeaeb;
   font-size: 2.5em;
   font-weight: 200;
   margin-top: 40px;
@@ -151,7 +151,7 @@ h4 {
 }
 /* line 22, ../scss/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #25cbf5;
+  color: #ceeaeb;
 }
 
 /* line 1, ../scss/_buttons.scss */
@@ -182,12 +182,12 @@ h4 {
 
 /* line 25, ../scss/_buttons.scss */
 .btn-cta {
-  background-color: #25cbf5;
+  background-color: #ceeaeb;
   color: white;
 }
 /* line 31, ../scss/_buttons.scss */
 .btn-cta:hover, .btn-cta:focus {
-  background-color: #25cbf5, 10%;
+  background-color: #ceeaeb, 10%;
   color: white;
 }
 
@@ -242,7 +242,7 @@ label {
 
 /* line 15, ../scss/_other.scss */
 #cta-2 {
-  background-color: #25cbf5;
+  background-color: #ceeaeb;
   padding: 40px 0;
 }
 
@@ -302,7 +302,7 @@ label {
   width: 130px;
   margin: 0 auto;
   position: relative;
-  color: #25cbf5;
+  color: #ceeaeb;
 }
 
 /* line 74, ../scss/_other.scss */
@@ -310,7 +310,7 @@ label {
 .icon:after {
   display: inline-block;
   content: "";
-  border-bottom: 1px solid #25cbf5;
+  border-bottom: 1px solid #ceeaeb;
   position: absolute;
   top: 10px;
   width: 50px;
@@ -349,12 +349,12 @@ label {
 
 /* line 109, ../scss/_other.scss */
 .services-col {
-  color: #25cbf5;
+  color: #ceeaeb;
 }
 
 /* line 113, ../scss/_other.scss */
 .services-col h3 {
-  color: #25cbf5;
+  color: #ceeaeb;
   margin-top: 0;
   font-weight: 200;
   letter-spacing: 1px;
@@ -376,14 +376,14 @@ label {
   line-height: 70px;
   text-align: center;
   color: white;
-  background-color: #25cbf5;
+  background-color: #ceeaeb;
   border-radius: 35px;
   margin-bottom: 10px;
 }
 
 /* line 139, ../scss/_other.scss */
 .contact-hours .fa {
-  color: #25cbf5;
+  color: #ceeaeb;
 }
 
 /* line 143, ../scss/_other.scss */
@@ -399,7 +399,7 @@ label {
 
 /* line 153, ../scss/_other.scss */
 .author {
-  color: #25cbf5;
+  color: #ceeaeb;
   font-size: 1.1em;
 }
 
@@ -466,7 +466,7 @@ label {
 
 /* line 208, ../scss/_other.scss */
 .services-col {
-  color: #25cbf5;
+  color: #ceeaeb;
   text-align: center;
 }
 
@@ -491,7 +491,7 @@ label {
   right: 10px;
   z-index: 999999;
   display: none;
-  background: #25cbf5;
+  background: #ceeaeb;
   opacity: 0.5;
   -webkit-transform: all 0.3s;
   -moz-transform: all 0.3s;
@@ -571,7 +571,7 @@ label {
 
 /* line 294, ../scss/_other.scss */
 .about-col:hover .fa {
-  background-color: #25cbf5;
+  background-color: #ceeaeb;
   color: white;
   transform: rotateY(360deg);
 }
@@ -583,7 +583,7 @@ label {
   line-height: 70px;
   text-align: center;
   color: white;
-  background-color: #25cbf5;
+  background-color: #ceeaeb;
   border-radius: 35px;
   margin-bottom: 10px;
   transition: 0.7s ease-in-out;
@@ -591,7 +591,7 @@ label {
 
 /* line 312, ../scss/_other.scss */
 .services-col:hover .fa {
-  background-color: #25cbf5;
+  background-color: #ceeaeb;
   color: white;
   transform: rotateY(360deg);
 }
