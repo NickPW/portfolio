@@ -1,0 +1,40 @@
+// Colors
+$white: #fff;
+$gray-darker: #333333; // footer background
+$gray-dark: #333333; // header text
+$gray: #666666; // blog date text
+$gray-light: #cccccc; // footer text
+$gray-lighter: #f5f4f2; // icon background (about section)
+$blue: #25cbf5; // blue button
+
+// Scaffolding
+$body-bg: $white; // background color for <body>
+$text-color: $gray-dark; // global text color for <body>
+$link-color: $gray-dark; // global textual link color
+$link-hover-color: $blue; // global hover link color
+$link-hover-decoration: none; // global link decoration
+
+// Typography
+$font-family-base: "Lato", sans-serif; // enter font stack for Lato web font
+$font-family-headings: "Montserrat", sans-serif; // enter font stack for Montserrat web font
+$font-size-base: 14px; // same as Bootstrap default
+$font-size-h1: 4em; // 4x base 
+$font-size-h2: 2em; // 2x base
+$font-size-h3: 1.3em; // 1.3x base
+$font-size-h4: 1em; // 1x base (same size)
+$line-height-base: 1.428571429; // same as Bootstrap default
+$headings-font-weight: 700;
+$headings-line-height: 1.1;
+$headings-color: $gray-dark;
+
+// Buttons
+$btn-font-family: 'Montserrat', sans-serif;
+$btn-font-size: 0.8em; // .8x base
+$btn-font-weight: 200; //lighter than default
+
+// Navbar
+$navbar-default-bg: $white;
+$navbar-default-font-family: $font-family-headings;
+$navbar-default-link-color: $gray-dark;
+$navbar-default-link-hover-color: $blue;
+$navbar-brand-color: $gray-dark;

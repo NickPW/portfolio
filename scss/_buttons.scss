@@ -1,0 +1,47 @@
+.btn-theme {
+	font-family: $btn-font-family;
+    font-size: $btn-font-size;
+    font-weight: $btn-font-weight;
+    text-transform: uppercase; // refer to PNG
+	border-radius: 0;
+    letter-spacing: 1px;
+	padding: 15px 30px;
+	@include prefix(transition, all 200ms ease-in, webkit moz)
+}
+
+.btn-dark {
+	@extend .btn-theme;
+	border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(0,0,0,0.3);
+    color: $gray;
+	
+	&:hover,
+	&:focus {
+		background: #000;
+		color: $white;
+	}
+}
+
+.btn-cta {
+	@extend .btn-theme;
+	background-color: $blue;
+	color: $white;
+
+	&:hover,
+	&:focus {
+		background-color: ($blue,10%); // uses Sass darken function
+		color: $white;
+	}
+}
+
+.btn-cta-o {
+	@extend .btn-theme;
+	color: $white;
+	border: 1px solid $white;
+	
+	&:hover,
+	&:focus {
+		background-color: $white;
+		color: $gray-darker;
+	}
+}

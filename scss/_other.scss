@@ -1,0 +1,316 @@
+#home {
+	background-color: $gray-dark;
+	padding: 40px 0;
+}
+
+#cta-1 {
+background-color: $gray-lighter;
+padding: 40px 0;
+}
+
+#testimonials {
+	background-color: $gray-dark;
+}
+
+#cta-2 {
+	background-color: $blue;
+	padding: 40px 0;
+}
+
+#services {
+	background-color: $gray-dark;
+}
+
+#cta-3 {
+	background-color: $gray-dark;
+	padding: 40px 0;
+}
+
+#facts {
+	background-color: $gray-dark;
+	padding: 40px 0;
+}
+
+#footer {
+	background-color: $gray-dark;
+}
+
+.color-reverse,
+.color-reverse h2,
+.color-reverse h3,
+.color-reverse .icon 
+.color-reverse ul>li>a{
+	color: $white;
+}
+
+.color-reverse .icon:before,
+.color-reverse .icon:after {
+	border-bottom-color: $white;
+}
+
+
+//padding
+.section-padding {
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+.section-heading {
+	margin-bottom: 40px;
+}
+
+//icon
+.icon {
+    display: inline-block;
+    font-size: 1.3em; // 1.3x base
+    line-height: $line-height-base;
+    width: 130px;
+    margin: 0 auto;
+    position: relative;
+	color: $blue;
+}
+
+.icon:before,
+.icon:after {
+    display: inline-block;
+    content: "";
+    border-bottom: 1px solid $blue;
+    position: absolute;
+    top: 10px;
+    width: 50px;
+}
+
+.icon:before {
+    left: 0;
+}
+
+.icon:after {
+    right: 0;
+}
+
+.icon-bg {
+	color: $white;
+}
+
+.icon-bg:before,
+.icon-bg:after {
+	border-bottom-color: $white;
+}
+
+.about-col .fa {
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	color: $gray;
+	border-radius: 50%;
+	background-color: $gray-lighter;
+}
+
+.services-col {
+	color: $blue;
+}
+
+.services-col h3 {
+	color: $blue;
+	margin-top: 0;
+	font-weight: 200;
+	letter-spacing: 1px;
+	font-size: 1.75em;
+}
+
+.services-col p {
+	color: $gray;
+	letter-spacing: 1px;
+	font-weight: 200;
+	line-height: 2;
+}
+
+.services-col .fa {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: $white;
+    background-color: $blue;
+    border-radius: 35px;
+    margin-bottom: 10px;
+}
+
+.contact-hours .fa {
+    color: $blue;
+}
+
+.social-channels .fa {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: $gray;
+    background-color: $gray-lighter;
+    margin-bottom: 10px;
+}
+
+.author {
+    color: $blue;
+    font-size: 1.1em; // 1.1x base font size
+}
+
+.item-img-wrap{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+
+}
+.item-img-wrap img{
+    transition:all 200ms linear; // use prefix mixin for this CSS3 property
+}
+.item-img-overlay{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.item-img-overlay span{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/plus.png) no-repeat center center rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 250ms linear; // use prefix mixin for this CSS3 property
+}
+
+.item-img-wrap:hover .item-img-overlay span{
+    opacity: 1;
+}
+.item-img-wrap:hover img{
+    transform: scale(1.1); // use prefix mixin for this CSS3 property
+}
+
+.about-col, 
+.team-col, 
+.services-col, 
+.portfolio-col, 
+.facts-col, 
+.blog-col {
+    margin-bottom: 40px;
+}
+
+.blog-col span {
+	color: $gray;
+	font-size: 0.9em;
+    display: inline-block;
+	margin-bottom: 20px;
+}
+
+.services-col {
+	color: $blue;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .services-col {
+        text-align: left;
+    }
+}
+
+.scrollToTop {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center; 
+    font-weight: bold;
+    color: $white;
+    font-size: 20px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999999;
+    display: none;
+    background: $blue;
+    opacity: 0.5;
+	@include prefix(transform, all 0.3s, webkit moz);
+}
+.scrollToTop:hover {
+    text-decoration:none;
+    opacity: 1;
+    color: $white;
+}
+
+.parallax {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallax-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/pattern.png);
+    background-repeat: repeat;
+    background-color: rgba(0,0,0,0.3);
+}
+#home {
+    background-image: url(img/showcase-1.jpg);
+    padding: 160px 0;
+    width: 100%;
+    height: 100%;
+}
+#testimonials {
+    background:url(img/showcase-3.jpg);
+    padding: 80px 0;
+}
+#services {
+    background:url(img/showcase-2.jpg);
+    padding: 80px 0;
+}
+#facts {
+    background:url(img/showcase-5.jpg);
+    padding: 80px 0;
+}
+
+.main-flex-slider {
+    overflow: hidden;
+}
+
+.about-col .fa {
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	color: $gray;
+	border-radius: 50%;
+	background-color: $gray-lighter;
+	transition: 0.7s ease-in-out; // use prefix mixin	
+}
+
+.about-col:hover .fa {
+background-color: $blue;
+color: $white;
+transform: rotateY(360deg); // use prefix mixin  
+}
+
+.services-col .fa {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: $white;
+    background-color: $blue;
+    border-radius: 35px;
+    margin-bottom: 10px;
+    transition: 0.7s ease-in-out; // use prefix mixin	
+}
+
+.services-col:hover .fa {
+background-color: $blue;
+color: $white;
+transform: rotateY(360deg); // use prefix mixin  
+}
