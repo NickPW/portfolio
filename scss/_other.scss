@@ -1,3 +1,9 @@
+#home {
+	background-color: $white;
+	padding: 40px 0;
+    text-align: center;
+}
+
 #about {
 	background-color: $gray-lighter;
 }
@@ -176,13 +182,14 @@
 	margin-bottom: 20px;
 }
 
-.services-col {
-	color: $blue;
+.info-col {
     text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 @media (min-width: 768px) {
-    .services-col {
+    .info-col {
         text-align: left;
     }
 }
@@ -244,3 +251,64 @@ background-color: $blue;
 color: $white;
 transform: rotateY(360deg); // use prefix mixin  
 }
+
+$line-weight: 3px;
+$circle-weight: 3px;
+
+.kz-photo {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+  top: 0; bottom: 0;
+  right: 0; left: 0;
+}
+.img-animate {
+  position: absolute;
+  top: -2px; left: -4px;
+  overflow: hidden;
+  width: 306px;
+  height: 306px;
+  z-index: 3;
+  opacity: 1;
+  animation: photo-ani 4s forwards;
+}
+.kz-photo-line {
+  z-index: 2;
+  position: relative;
+}
+.line {
+  fill: none;
+  stroke: #CEEBEC;
+  stroke-width: $line-weight;
+
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: line-ani 3s forwards;
+}
+.circle {
+  stroke-width: $circle-weight;
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation: line-ani 3s forwards;
+}
+
+/* Keyframes */
+@keyframes line-ani {
+  to {
+    stroke-dashoffset: 0;
+  } 
+}
+@keyframes photo-ani {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+

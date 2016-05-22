@@ -11,6 +11,7 @@
 
 .btn-dark {
 	@extend .btn-theme;
+    margin-top: 50px;
 	border: 1px solid rgba(255,255,255,0.1);
     background: rgba(0,0,0,0.3);
     color: $gray;
@@ -29,19 +30,19 @@
 
 	&:hover,
 	&:focus {
-		background-color: ($blue,10%); // uses Sass darken function
+		background-color: ($blue,30%); // uses Sass darken function
 		color: $white;
 	}
 }
 
 .btn-cta-o {
 	@extend .btn-theme;
-	color: $white;
-	border: 1px solid $white;
+	color: $blue;
+	border: 1px solid $blue;
 	
 	&:hover,
 	&:focus {
-		background-color: $white;
-		color: $gray-darker;
+		background-color: $blue;
+		color: $white;
 	}
 }

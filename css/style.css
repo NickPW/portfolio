@@ -5,7 +5,7 @@ Author URI: https://quick-nickwong.c9users.io/
 Description: Quick: A responsive, single-page theme for WordPress
 Template: _tk-master
 */
-/* line 8, /Users/NIck/portfolio/scss/_mixins.scss */
+/* line 8, ../scss/_mixins.scss */
 .box {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -13,19 +13,19 @@ Template: _tk-master
   border-radius: 10px;
 }
 
-/* line 12, /Users/NIck/portfolio/scss/_mixins.scss */
+/* line 12, ../scss/_mixins.scss */
 .message, .success {
   border: 1px solid #ccc;
   padding: 10px;
   color: #333;
 }
 
-/* line 18, /Users/NIck/portfolio/scss/_mixins.scss */
+/* line 18, ../scss/_mixins.scss */
 .success {
   border-color: green;
 }
 
-/* line 1, /Users/NIck/portfolio/scss/_scaffolding.scss */
+/* line 1, ../scss/_scaffolding.scss */
 body {
   font-family: "Maven Pro", sans-serif;
   font-size: 16px;
@@ -34,23 +34,23 @@ body {
   background-color: white;
 }
 
-/* line 9, /Users/NIck/portfolio/scss/_scaffolding.scss */
+/* line 9, ../scss/_scaffolding.scss */
 a {
   color: #333333;
 }
-/* line 13, /Users/NIck/portfolio/scss/_scaffolding.scss */
+/* line 13, ../scss/_scaffolding.scss */
 a:hover, a:focus {
   color: #8fd0e0;
   text-decoration: none;
 }
 
-/* line 20, /Users/NIck/portfolio/scss/_scaffolding.scss */
+/* line 20, ../scss/_scaffolding.scss */
 html,
 body {
   height: 100%;
 }
 
-/* line 4, /Users/NIck/portfolio/scss/_typography.scss */
+/* line 4, ../scss/_typography.scss */
 h1,
 h2,
 h3,
@@ -61,33 +61,33 @@ h4 {
   color: #333333;
 }
 
-/* line 12, /Users/NIck/portfolio/scss/_typography.scss */
+/* line 12, ../scss/_typography.scss */
 h1,
 h2 {
   text-transform: uppercase;
 }
 
-/* line 16, /Users/NIck/portfolio/scss/_typography.scss */
+/* line 16, ../scss/_typography.scss */
 h1 {
   font-size: 4em;
 }
 
-/* line 19, /Users/NIck/portfolio/scss/_typography.scss */
+/* line 19, ../scss/_typography.scss */
 h2 {
   font-size: 2em;
 }
 
-/* line 22, /Users/NIck/portfolio/scss/_typography.scss */
+/* line 22, ../scss/_typography.scss */
 h3 {
   font-size: 1.3em;
 }
 
-/* line 25, /Users/NIck/portfolio/scss/_typography.scss */
+/* line 25, ../scss/_typography.scss */
 h4 {
   font-size: 1em;
 }
 
-/* line 30, /Users/NIck/portfolio/scss/_typography.scss */
+/* line 30, ../scss/_typography.scss */
 .home-text {
   color: white;
   text-transform: uppercase;
@@ -98,7 +98,7 @@ h4 {
   font-weight: 200;
 }
 
-/* line 40, /Users/NIck/portfolio/scss/_typography.scss */
+/* line 40, ../scss/_typography.scss */
 .home-h1 {
   color: #8fd0e0;
   font-size: 2.5em;
@@ -108,28 +108,28 @@ h4 {
 }
 
 @media (min-width: 768px) {
-  /* line 49, /Users/NIck/portfolio/scss/_typography.scss */
+  /* line 49, ../scss/_typography.scss */
   .home-h1 {
     font-size: 4.5em;
   }
 }
-/* line 54, /Users/NIck/portfolio/scss/_typography.scss */
+/* line 54, ../scss/_typography.scss */
 .home-h1 > span {
   color: white;
 }
 
-/* line 58, /Users/NIck/portfolio/scss/_typography.scss */
+/* line 58, ../scss/_typography.scss */
 .lead {
   letter-spacing: 1px;
   margin-bottom: 60px;
 }
 
-/* line 1, /Users/NIck/portfolio/scss/_navbar.scss */
+/* line 1, ../scss/_navbar.scss */
 .navbar {
   min-height: 70px;
 }
 
-/* line 5, /Users/NIck/portfolio/scss/_navbar.scss */
+/* line 5, ../scss/_navbar.scss */
 .navbar-default {
   background-color: white;
   font-family: "Maven Pro", sans-serif;
@@ -138,23 +138,23 @@ h4 {
   z-index: 100;
 }
 
-/* line 13, /Users/NIck/portfolio/scss/_navbar.scss */
+/* line 13, ../scss/_navbar.scss */
 .navbar-default .navbar-brand {
   font-weight: 700;
   color: #333333;
   font-size: 1.5em;
 }
 
-/* line 19, /Users/NIck/portfolio/scss/_navbar.scss */
+/* line 19, ../scss/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
   color: #333333;
 }
-/* line 22, /Users/NIck/portfolio/scss/_navbar.scss */
+/* line 22, ../scss/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #8fd0e0;
 }
 
-/* line 1, /Users/NIck/portfolio/scss/_buttons.scss */
+/* line 1, ../scss/_buttons.scss */
 .btn-theme, .btn-dark, .btn-cta, .btn-cta-o {
   font-family: "Maven Pro", sans-serif;
   font-size: 0.8em;
@@ -168,41 +168,42 @@ h4 {
   transition: all 200ms ease-in;
 }
 
-/* line 12, /Users/NIck/portfolio/scss/_buttons.scss */
+/* line 12, ../scss/_buttons.scss */
 .btn-dark {
+  margin-top: 50px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(0, 0, 0, 0.3);
   color: #666666;
 }
-/* line 19, /Users/NIck/portfolio/scss/_buttons.scss */
+/* line 20, ../scss/_buttons.scss */
 .btn-dark:hover, .btn-dark:focus {
   background: #000;
   color: white;
 }
 
-/* line 25, /Users/NIck/portfolio/scss/_buttons.scss */
+/* line 26, ../scss/_buttons.scss */
 .btn-cta {
   background-color: #8fd0e0;
   color: white;
 }
-/* line 31, /Users/NIck/portfolio/scss/_buttons.scss */
+/* line 32, ../scss/_buttons.scss */
 .btn-cta:hover, .btn-cta:focus {
-  background-color: #8fd0e0, 10%;
+  background-color: #8fd0e0, 30%;
   color: white;
 }
 
-/* line 37, /Users/NIck/portfolio/scss/_buttons.scss */
+/* line 38, ../scss/_buttons.scss */
 .btn-cta-o {
-  color: white;
-  border: 1px solid white;
+  color: #8fd0e0;
+  border: 1px solid #8fd0e0;
 }
-/* line 43, /Users/NIck/portfolio/scss/_buttons.scss */
+/* line 44, ../scss/_buttons.scss */
 .btn-cta-o:hover, .btn-cta-o:focus {
-  background-color: white;
-  color: #333333;
+  background-color: #8fd0e0;
+  color: white;
 }
 
-/* line 1, /Users/NIck/portfolio/scss/_forms.scss */
+/* line 1, ../scss/_forms.scss */
 .form-control {
   border-radius: 0;
   margin-bottom: 30px;
@@ -212,28 +213,35 @@ h4 {
   transition: all 200ms ease-in;
 }
 
-/* line 10, /Users/NIck/portfolio/scss/_forms.scss */
+/* line 10, ../scss/_forms.scss */
 label {
   font-weight: 200;
 }
 
-/* line 14, /Users/NIck/portfolio/scss/_forms.scss */
+/* line 14, ../scss/_forms.scss */
 .form-control:focus {
   background: #f1f1f1;
   border-color: #666666;
 }
 
-/* line 1, /Users/NIck/portfolio/scss/_other.scss */
+/* line 1, ../scss/_other.scss */
+#home {
+  background-color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* line 7, ../scss/_other.scss */
 #about {
   background-color: #f1f1f1;
 }
 
-/* line 5, /Users/NIck/portfolio/scss/_other.scss */
+/* line 11, ../scss/_other.scss */
 #footer {
   background-color: #333333;
 }
 
-/* line 13, /Users/NIck/portfolio/scss/_other.scss */
+/* line 19, ../scss/_other.scss */
 .color-reverse,
 .color-reverse h2,
 .color-reverse h3,
@@ -242,24 +250,24 @@ label {
   color: white;
 }
 
-/* line 18, /Users/NIck/portfolio/scss/_other.scss */
+/* line 24, ../scss/_other.scss */
 .color-reverse .icon:before,
 .color-reverse .icon:after {
   border-bottom-color: white;
 }
 
-/* line 24, /Users/NIck/portfolio/scss/_other.scss */
+/* line 30, ../scss/_other.scss */
 .section-padding {
   padding-top: 60px;
   padding-bottom: 50px;
 }
 
-/* line 29, /Users/NIck/portfolio/scss/_other.scss */
+/* line 35, ../scss/_other.scss */
 .section-heading {
   margin-bottom: 40px;
 }
 
-/* line 34, /Users/NIck/portfolio/scss/_other.scss */
+/* line 40, ../scss/_other.scss */
 .icon {
   display: inline-block;
   font-size: 1.3em;
@@ -270,7 +278,7 @@ label {
   color: #8fd0e0;
 }
 
-/* line 45, /Users/NIck/portfolio/scss/_other.scss */
+/* line 51, ../scss/_other.scss */
 .icon:before,
 .icon:after {
   display: inline-block;
@@ -281,28 +289,28 @@ label {
   width: 50px;
 }
 
-/* line 54, /Users/NIck/portfolio/scss/_other.scss */
+/* line 60, ../scss/_other.scss */
 .icon:before {
   left: 0;
 }
 
-/* line 58, /Users/NIck/portfolio/scss/_other.scss */
+/* line 64, ../scss/_other.scss */
 .icon:after {
   right: 0;
 }
 
-/* line 62, /Users/NIck/portfolio/scss/_other.scss */
+/* line 68, ../scss/_other.scss */
 .icon-bg {
   color: white;
 }
 
-/* line 67, /Users/NIck/portfolio/scss/_other.scss */
+/* line 73, ../scss/_other.scss */
 .icon-bg:before,
 .icon-bg:after {
   border-bottom-color: white;
 }
 
-/* line 71, /Users/NIck/portfolio/scss/_other.scss */
+/* line 77, ../scss/_other.scss */
 .about-col .fa {
   width: 90px;
   height: 90px;
@@ -312,12 +320,12 @@ label {
   background-color: #f1f1f1;
 }
 
-/* line 80, /Users/NIck/portfolio/scss/_other.scss */
+/* line 86, ../scss/_other.scss */
 .services-col {
   color: #8fd0e0;
 }
 
-/* line 84, /Users/NIck/portfolio/scss/_other.scss */
+/* line 90, ../scss/_other.scss */
 .services-col h3 {
   color: #8fd0e0;
   margin-top: 0;
@@ -326,7 +334,7 @@ label {
   font-size: 1.75em;
 }
 
-/* line 92, /Users/NIck/portfolio/scss/_other.scss */
+/* line 98, ../scss/_other.scss */
 .services-col p {
   color: #666666;
   letter-spacing: 1px;
@@ -334,7 +342,7 @@ label {
   line-height: 2;
 }
 
-/* line 99, /Users/NIck/portfolio/scss/_other.scss */
+/* line 105, ../scss/_other.scss */
 .services-col .fa {
   width: 70px;
   height: 70px;
@@ -346,12 +354,12 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 110, /Users/NIck/portfolio/scss/_other.scss */
+/* line 116, ../scss/_other.scss */
 .contact-hours .fa {
   color: #8fd0e0;
 }
 
-/* line 114, /Users/NIck/portfolio/scss/_other.scss */
+/* line 120, ../scss/_other.scss */
 .social-channels .fa {
   width: 40px;
   height: 40px;
@@ -362,25 +370,25 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 124, /Users/NIck/portfolio/scss/_other.scss */
+/* line 130, ../scss/_other.scss */
 .author {
   color: #8fd0e0;
   font-size: 1.1em;
 }
 
-/* line 129, /Users/NIck/portfolio/scss/_other.scss */
+/* line 135, ../scss/_other.scss */
 .item-img-wrap {
   position: relative;
   text-align: center;
   overflow: hidden;
 }
 
-/* line 135, /Users/NIck/portfolio/scss/_other.scss */
+/* line 141, ../scss/_other.scss */
 .item-img-wrap img {
   transition: all 200ms linear;
 }
 
-/* line 138, /Users/NIck/portfolio/scss/_other.scss */
+/* line 144, ../scss/_other.scss */
 .item-img-overlay {
   position: absolute;
   width: 100%;
@@ -389,7 +397,7 @@ label {
   top: 0;
 }
 
-/* line 145, /Users/NIck/portfolio/scss/_other.scss */
+/* line 151, ../scss/_other.scss */
 .item-img-overlay span {
   width: 100%;
   height: 100%;
@@ -401,17 +409,17 @@ label {
   transition: opacity 250ms linear;
 }
 
-/* line 156, /Users/NIck/portfolio/scss/_other.scss */
+/* line 162, ../scss/_other.scss */
 .item-img-wrap:hover .item-img-overlay span {
   opacity: 1;
 }
 
-/* line 159, /Users/NIck/portfolio/scss/_other.scss */
+/* line 165, ../scss/_other.scss */
 .item-img-wrap:hover img {
   transform: scale(1.1);
 }
 
-/* line 168, /Users/NIck/portfolio/scss/_other.scss */
+/* line 174, ../scss/_other.scss */
 .about-col,
 .team-col,
 .services-col,
@@ -421,7 +429,7 @@ label {
   margin-bottom: 40px;
 }
 
-/* line 172, /Users/NIck/portfolio/scss/_other.scss */
+/* line 178, ../scss/_other.scss */
 .blog-col span {
   color: #666666;
   font-size: 0.9em;
@@ -429,19 +437,20 @@ label {
   margin-bottom: 20px;
 }
 
-/* line 179, /Users/NIck/portfolio/scss/_other.scss */
-.services-col {
-  color: #8fd0e0;
+/* line 185, ../scss/_other.scss */
+.info-col {
   text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 @media (min-width: 768px) {
-  /* line 185, /Users/NIck/portfolio/scss/_other.scss */
-  .services-col {
+  /* line 192, ../scss/_other.scss */
+  .info-col {
     text-align: left;
   }
 }
-/* line 190, /Users/NIck/portfolio/scss/_other.scss */
+/* line 197, ../scss/_other.scss */
 .scrollToTop {
   width: 40px;
   height: 40px;
@@ -464,14 +473,14 @@ label {
   transform: all 0.3s;
 }
 
-/* line 209, /Users/NIck/portfolio/scss/_other.scss */
+/* line 216, ../scss/_other.scss */
 .scrollToTop:hover {
   text-decoration: none;
   opacity: 1;
   color: white;
 }
 
-/* line 214, /Users/NIck/portfolio/scss/_other.scss */
+/* line 221, ../scss/_other.scss */
 .about-col .fa {
   width: 90px;
   height: 90px;
@@ -482,14 +491,14 @@ label {
   transition: 0.7s ease-in-out;
 }
 
-/* line 224, /Users/NIck/portfolio/scss/_other.scss */
+/* line 231, ../scss/_other.scss */
 .about-col:hover .fa {
   background-color: #8fd0e0;
   color: white;
   transform: rotateY(360deg);
 }
 
-/* line 230, /Users/NIck/portfolio/scss/_other.scss */
+/* line 237, ../scss/_other.scss */
 .services-col .fa {
   width: 70px;
   height: 70px;
@@ -502,9 +511,83 @@ label {
   transition: 0.7s ease-in-out;
 }
 
-/* line 242, /Users/NIck/portfolio/scss/_other.scss */
+/* line 249, ../scss/_other.scss */
 .services-col:hover .fa {
   background-color: #8fd0e0;
   color: white;
   transform: rotateY(360deg);
+}
+
+/* line 258, ../scss/_other.scss */
+.kz-photo {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+/* line 266, ../scss/_other.scss */
+.img-animate {
+  position: absolute;
+  top: -2px;
+  left: -4px;
+  overflow: hidden;
+  width: 306px;
+  height: 306px;
+  z-index: 3;
+  opacity: 1;
+  animation: photo-ani 4s forwards;
+}
+
+/* line 276, ../scss/_other.scss */
+.kz-photo-line {
+  z-index: 2;
+  position: relative;
+}
+
+/* line 280, ../scss/_other.scss */
+.line {
+  fill: none;
+  stroke: #CEEBEC;
+  stroke-width: 3px;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: line-ani 3s forwards;
+}
+
+/* line 289, ../scss/_other.scss */
+.circle {
+  stroke-width: 3px;
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation: line-ani 3s forwards;
+}
+
+/* Keyframes */
+@keyframes line-ani {
+  /* line 298, ../scss/_other.scss */
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes photo-ani {
+  /* line 303, ../scss/_other.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 306, ../scss/_other.scss */
+  50% {
+    opacity: 0;
+  }
+
+  /* line 309, ../scss/_other.scss */
+  100% {
+    opacity: 1;
+  }
 }
