@@ -143,6 +143,12 @@
     margin-bottom: 10px;
 }
 
+.social-icon:hover a{
+background-color: $blue;
+color: $white;
+transform: rotateY(360deg); // use prefix mixin  
+}
+
 .author {
     color: $blue;
     font-size: 1.1em; // 1.1x base font size
@@ -262,7 +268,7 @@ transform: rotateY(360deg); // use prefix mixin
     transition: 0.7s ease-in-out; // use prefix mixin	
 }
 
-.services-col:hover .fa {
+.social-col:hover .fa {
 background-color: $blue;
 color: $white;
 transform: rotateY(360deg); // use prefix mixin  
@@ -286,12 +292,12 @@ $line-weight: 1px;
   position: absolute;
   top: 0px; left: 0px;
   overflow: hidden;
-  z-index: 3;
+  z-index: 11;
   opacity: 1;
   animation: photo-ani 3s forwards;
 }
 .font-line {
-  z-index: 2;
+  z-index: 10;
   position: relative;
       margin: auto;
   top: 0; bottom: 0;
