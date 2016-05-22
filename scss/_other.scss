@@ -195,6 +195,7 @@
     font-weight: bold;
     color: $white;
     font-size: 20px;
+    border-radius: 50px;
     text-decoration: none;
     position: fixed;
     bottom: 10px;
@@ -202,7 +203,7 @@
     z-index: 999999;
     display: none;
     background: $blue;
-    opacity: 0.5;
+    opacity: 0.8;
 	@include prefix(transform, all 0.3s, webkit moz);
 }
 .scrollToTop:hover {
