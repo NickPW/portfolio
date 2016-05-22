@@ -225,22 +225,24 @@ label {
 
 /* line 1, ../scss/_other.scss */
 #home {
-  background-color: white;
-  padding: 40px 0;
+  background-color: #ceebec;
+  padding: 160px 0;
+  width: 100%;
+  height: 100%;
   text-align: center;
 }
 
-/* line 7, ../scss/_other.scss */
+/* line 9, ../scss/_other.scss */
 #about {
   background-color: #f1f1f1;
 }
 
-/* line 11, ../scss/_other.scss */
+/* line 13, ../scss/_other.scss */
 #footer {
   background-color: #333333;
 }
 
-/* line 19, ../scss/_other.scss */
+/* line 21, ../scss/_other.scss */
 .color-reverse,
 .color-reverse h2,
 .color-reverse h3,
@@ -249,35 +251,41 @@ label {
   color: white;
 }
 
-/* line 24, ../scss/_other.scss */
+/* line 26, ../scss/_other.scss */
 .color-reverse .icon:before,
 .color-reverse .icon:after {
   border-bottom-color: white;
 }
 
-/* line 30, ../scss/_other.scss */
+/* line 32, ../scss/_other.scss */
 .section-padding {
   padding-top: 60px;
   padding-bottom: 50px;
 }
 
-/* line 35, ../scss/_other.scss */
+/* line 37, ../scss/_other.scss */
 .margin-top {
   margin-top: 50px;
 }
 
-/* line 39, ../scss/_other.scss */
+/* line 41, ../scss/_other.scss */
 .margin10 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-/* line 44, ../scss/_other.scss */
+/* line 46, ../scss/_other.scss */
+.margin20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 51, ../scss/_other.scss */
 .section-heading {
   margin-bottom: 40px;
 }
 
-/* line 49, ../scss/_other.scss */
+/* line 56, ../scss/_other.scss */
 .icon {
   display: inline-block;
   font-size: 1.3em;
@@ -288,7 +296,7 @@ label {
   color: #8fd0e0;
 }
 
-/* line 60, ../scss/_other.scss */
+/* line 67, ../scss/_other.scss */
 .icon:before,
 .icon:after {
   display: inline-block;
@@ -299,28 +307,28 @@ label {
   width: 50px;
 }
 
-/* line 69, ../scss/_other.scss */
+/* line 76, ../scss/_other.scss */
 .icon:before {
   left: 0;
 }
 
-/* line 73, ../scss/_other.scss */
+/* line 80, ../scss/_other.scss */
 .icon:after {
   right: 0;
 }
 
-/* line 77, ../scss/_other.scss */
+/* line 84, ../scss/_other.scss */
 .icon-bg {
   color: white;
 }
 
-/* line 82, ../scss/_other.scss */
+/* line 89, ../scss/_other.scss */
 .icon-bg:before,
 .icon-bg:after {
   border-bottom-color: white;
 }
 
-/* line 86, ../scss/_other.scss */
+/* line 93, ../scss/_other.scss */
 .about-col .fa {
   width: 90px;
   height: 90px;
@@ -330,12 +338,12 @@ label {
   background-color: #f1f1f1;
 }
 
-/* line 95, ../scss/_other.scss */
+/* line 102, ../scss/_other.scss */
 .services-col {
   color: #8fd0e0;
 }
 
-/* line 99, ../scss/_other.scss */
+/* line 106, ../scss/_other.scss */
 .services-col h3 {
   color: #8fd0e0;
   margin-top: 0;
@@ -344,7 +352,7 @@ label {
   font-size: 1.75em;
 }
 
-/* line 107, ../scss/_other.scss */
+/* line 114, ../scss/_other.scss */
 .services-col p {
   color: #666666;
   letter-spacing: 1px;
@@ -352,7 +360,7 @@ label {
   line-height: 2;
 }
 
-/* line 114, ../scss/_other.scss */
+/* line 121, ../scss/_other.scss */
 .services-col .fa {
   width: 70px;
   height: 70px;
@@ -364,12 +372,12 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 125, ../scss/_other.scss */
+/* line 132, ../scss/_other.scss */
 .contact-hours .fa {
   color: #8fd0e0;
 }
 
-/* line 129, ../scss/_other.scss */
+/* line 136, ../scss/_other.scss */
 .social-channels .fa {
   width: 40px;
   height: 40px;
@@ -380,25 +388,25 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 139, ../scss/_other.scss */
+/* line 146, ../scss/_other.scss */
 .author {
   color: #8fd0e0;
   font-size: 1.1em;
 }
 
-/* line 144, ../scss/_other.scss */
+/* line 151, ../scss/_other.scss */
 .item-img-wrap {
   position: relative;
   text-align: center;
   overflow: hidden;
 }
 
-/* line 150, ../scss/_other.scss */
+/* line 157, ../scss/_other.scss */
 .item-img-wrap img {
   transition: all 200ms linear;
 }
 
-/* line 153, ../scss/_other.scss */
+/* line 160, ../scss/_other.scss */
 .item-img-overlay {
   position: absolute;
   width: 100%;
@@ -407,7 +415,7 @@ label {
   top: 0;
 }
 
-/* line 160, ../scss/_other.scss */
+/* line 167, ../scss/_other.scss */
 .item-img-overlay span {
   width: 100%;
   height: 100%;
@@ -419,17 +427,17 @@ label {
   transition: opacity 250ms linear;
 }
 
-/* line 171, ../scss/_other.scss */
+/* line 178, ../scss/_other.scss */
 .item-img-wrap:hover .item-img-overlay span {
   opacity: 1;
 }
 
-/* line 174, ../scss/_other.scss */
+/* line 181, ../scss/_other.scss */
 .item-img-wrap:hover img {
   transform: scale(1.1);
 }
 
-/* line 183, ../scss/_other.scss */
+/* line 190, ../scss/_other.scss */
 .about-col,
 .team-col,
 .services-col,
@@ -439,7 +447,7 @@ label {
   margin-bottom: 40px;
 }
 
-/* line 187, ../scss/_other.scss */
+/* line 194, ../scss/_other.scss */
 .blog-col span {
   color: #666666;
   font-size: 0.9em;
@@ -447,7 +455,7 @@ label {
   margin-bottom: 20px;
 }
 
-/* line 194, ../scss/_other.scss */
+/* line 201, ../scss/_other.scss */
 .info-col {
   text-align: center;
   padding-left: 3%;
@@ -455,12 +463,12 @@ label {
 }
 
 @media (min-width: 768px) {
-  /* line 201, ../scss/_other.scss */
+  /* line 208, ../scss/_other.scss */
   .info-col {
     text-align: left;
   }
 }
-/* line 206, ../scss/_other.scss */
+/* line 213, ../scss/_other.scss */
 .scrollToTop {
   width: 40px;
   height: 40px;
@@ -483,14 +491,14 @@ label {
   transform: all 0.3s;
 }
 
-/* line 225, ../scss/_other.scss */
+/* line 232, ../scss/_other.scss */
 .scrollToTop:hover {
   text-decoration: none;
   opacity: 1;
   color: white;
 }
 
-/* line 230, ../scss/_other.scss */
+/* line 237, ../scss/_other.scss */
 .about-col .fa {
   width: 90px;
   height: 90px;
@@ -501,14 +509,14 @@ label {
   transition: 0.7s ease-in-out;
 }
 
-/* line 240, ../scss/_other.scss */
+/* line 247, ../scss/_other.scss */
 .about-col:hover .fa {
   background-color: #8fd0e0;
   color: white;
   transform: rotateY(360deg);
 }
 
-/* line 246, ../scss/_other.scss */
+/* line 253, ../scss/_other.scss */
 .services-col .fa {
   width: 70px;
   height: 70px;
@@ -521,14 +529,19 @@ label {
   transition: 0.7s ease-in-out;
 }
 
-/* line 258, ../scss/_other.scss */
+/* line 265, ../scss/_other.scss */
 .services-col:hover .fa {
   background-color: #8fd0e0;
   color: white;
   transform: rotateY(360deg);
 }
 
-/* line 267, ../scss/_other.scss */
+/* line 273, ../scss/_other.scss */
+.frame {
+  vertical-align: middle;
+}
+
+/* line 277, ../scss/_other.scss */
 .kz-photo {
   width: 900px;
   height: 300px;
@@ -540,55 +553,58 @@ label {
   left: 0;
 }
 
-/* line 275, ../scss/_other.scss */
+/* line 285, ../scss/_other.scss */
 .img-animate {
   position: absolute;
-  top: -2px;
-  left: -4px;
+  top: 0px;
+  left: 0px;
   overflow: hidden;
-  width: 306px;
-  height: 306px;
   z-index: 3;
   opacity: 1;
-  animation: photo-ani 4s forwards;
+  animation: photo-ani 3s forwards;
 }
 
-/* line 285, ../scss/_other.scss */
-.kz-photo-line {
+/* line 293, ../scss/_other.scss */
+.font-line {
   z-index: 2;
   position: relative;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
-/* line 289, ../scss/_other.scss */
+/* line 301, ../scss/_other.scss */
 .line {
   fill: none;
-  stroke: #CEEBEC;
-  stroke-width: 3px;
-  stroke-dasharray: 500;
-  stroke-dashoffset: 500;
+  stroke: #333;
+  stroke-width: 1px;
+  stroke-dasharray: 650;
+  stroke-dashoffset: 650;
   animation: line-ani 2s forwards;
 }
 
 /* Keyframes */
 @keyframes line-ani {
-  /* line 301, ../scss/_other.scss */
+  /* line 314, ../scss/_other.scss */
   to {
     stroke-dashoffset: 0;
   }
 }
 
 @keyframes photo-ani {
-  /* line 306, ../scss/_other.scss */
+  /* line 319, ../scss/_other.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 309, ../scss/_other.scss */
+  /* line 322, ../scss/_other.scss */
   50% {
     opacity: 0;
   }
 
-  /* line 312, ../scss/_other.scss */
+  /* line 325, ../scss/_other.scss */
   100% {
     opacity: 1;
   }
