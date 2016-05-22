@@ -32,6 +32,15 @@
 	padding-bottom: 50px;
 }
 
+.margin-top {
+    margin-top: 50px;
+}
+
+.margin10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .section-heading {
 	margin-bottom: 40px;
 }
@@ -256,7 +265,7 @@ $line-weight: 3px;
 $circle-weight: 3px;
 
 .kz-photo {
-  width: 300px;
+  width: 900px;
   height: 300px;
   position: relative;
   margin: auto;
@@ -284,13 +293,7 @@ $circle-weight: 3px;
 
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
-  animation: line-ani 3s forwards;
-}
-.circle {
-  stroke-width: $circle-weight;
-  stroke-dasharray: 300;
-  stroke-dashoffset: 300;
-  animation: line-ani 3s forwards;
+  animation: line-ani 2s forwards;
 }
 
 /* Keyframes */
