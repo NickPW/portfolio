@@ -119,6 +119,19 @@ h4 {
   margin-bottom: 60px;
 }
 
+/* line 60, ../scss/_typography.scss */
+.cat {
+  color: #cccccc;
+  margin-top: -5px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+/* line 67, ../scss/_typography.scss */
+.p {
+  margin: 20px 0px 40px 0px;
+}
+
 /* line 1, ../scss/_navbar.scss */
 .navbar {
   min-height: 70px;
@@ -458,14 +471,6 @@ label {
 }
 
 /* line 207, ../scss/_other.scss */
-.cat {
-  color: #cccccc;
-  margin-top: -5px;
-  font-weight: 300;
-  margin-bottom: 5px;
-}
-
-/* line 214, ../scss/_other.scss */
 .info-col {
   text-align: center;
   padding-left: 3%;
@@ -473,12 +478,12 @@ label {
 }
 
 @media (min-width: 768px) {
-  /* line 221, ../scss/_other.scss */
+  /* line 214, ../scss/_other.scss */
   .info-col {
     text-align: left;
   }
 }
-/* line 226, ../scss/_other.scss */
+/* line 219, ../scss/_other.scss */
 .scrollToTop {
   width: 40px;
   height: 40px;
@@ -501,14 +506,14 @@ label {
   transform: all 0.3s;
 }
 
-/* line 245, ../scss/_other.scss */
+/* line 238, ../scss/_other.scss */
 .scrollToTop:hover {
   text-decoration: none;
   opacity: 1;
   color: white;
 }
 
-/* line 250, ../scss/_other.scss */
+/* line 243, ../scss/_other.scss */
 .about-col .fa {
   width: 90px;
   height: 90px;
@@ -519,14 +524,14 @@ label {
   transition: 0.7s ease-in-out;
 }
 
-/* line 260, ../scss/_other.scss */
+/* line 253, ../scss/_other.scss */
 .about-col:hover .fa {
   background-color: #8fd0e0;
   color: white;
   transform: rotateY(360deg);
 }
 
-/* line 266, ../scss/_other.scss */
+/* line 259, ../scss/_other.scss */
 .services-col .fa {
   width: 70px;
   height: 70px;
@@ -539,19 +544,19 @@ label {
   transition: 0.7s ease-in-out;
 }
 
-/* line 278, ../scss/_other.scss */
+/* line 271, ../scss/_other.scss */
 .social-col:hover .fa {
   background-color: #8fd0e0;
   color: white;
   transform: rotateY(360deg);
 }
 
-/* line 286, ../scss/_other.scss */
+/* line 279, ../scss/_other.scss */
 .frame {
   vertical-align: middle;
 }
 
-/* line 290, ../scss/_other.scss */
+/* line 283, ../scss/_other.scss */
 .kz-photo {
   width: 900px;
   height: 300px;
@@ -563,7 +568,7 @@ label {
   left: 0;
 }
 
-/* line 298, ../scss/_other.scss */
+/* line 291, ../scss/_other.scss */
 .img-animate {
   position: absolute;
   top: 0px;
@@ -574,7 +579,7 @@ label {
   animation: photo-ani 3s forwards;
 }
 
-/* line 306, ../scss/_other.scss */
+/* line 299, ../scss/_other.scss */
 .font-line {
   z-index: 10;
   position: relative;
@@ -585,7 +590,7 @@ label {
   left: 0;
 }
 
-/* line 314, ../scss/_other.scss */
+/* line 307, ../scss/_other.scss */
 .line {
   fill: none;
   stroke: #333;
@@ -597,24 +602,24 @@ label {
 
 /* Keyframes */
 @keyframes line-ani {
-  /* line 327, ../scss/_other.scss */
+  /* line 320, ../scss/_other.scss */
   to {
     stroke-dashoffset: 0;
   }
 }
 
 @keyframes photo-ani {
-  /* line 332, ../scss/_other.scss */
+  /* line 325, ../scss/_other.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 335, ../scss/_other.scss */
+  /* line 328, ../scss/_other.scss */
   50% {
     opacity: 0;
   }
 
-  /* line 338, ../scss/_other.scss */
+  /* line 331, ../scss/_other.scss */
   100% {
     opacity: 1;
   }
