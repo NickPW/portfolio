@@ -111,3 +111,8 @@ var wow = new WOW(
 );
 wow.init();
 })( jQuery );
+
+// back
+function goBack() {
+    window.history.back();
+}

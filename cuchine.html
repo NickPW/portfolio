@@ -18,7 +18,7 @@
         <link href="css/animate.css" rel="stylesheet" type="text/css">
         <link href='css/style.css' rel='stylesheet' type='text/css'>
     </head>
-    <body>
+    <body class="work">
         
        <!--navigation section start-->
         <section id="navigation">
@@ -26,21 +26,13 @@
 	            <div class="container">
 	            <!-- Brand and toggle get grouped for better mobile display -->
 		            <div class="navbar-header">
-			            <button type="button" class="navbar-toggle collapsed margin20" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-			            </button>
 			            <a href="index.html"><img src="img/logonw-solid.svg" alt="logo" height="50px" class="margin10"></a>
 		            </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav navbar-right margin10">
-                            <li><a href="#work">Work</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="index.html">Contact</a></li>
+                    <div>
+                        <ul class="hidden-xs nav navbar-nav navbar-right margin20">
+                            <li><p class="btn bth-cta" onclick="goBack()"><a><i class="fa fa-arrow-left"></i>&nbsp Back</a></p></li>
                         </ul>
                     </div>
 		            <!-- /.navbar-collapse -->
@@ -53,31 +45,57 @@
         <!--portfolio section start-->
         <section>
 			<div class="container">
-                <a href="index.html"><h3><i class="fa fa-arrow-left"></i>Back to Portfolio</h3></a>
              <div class="col-sm-8 col-sm-offset-2 text-center">
-                    <div class="section-heading"> 
-                        <span class="icon"><i class="fa fa-desktop"></i></span>
-                    </div>
 			        </div>
 			    
 			    <div class="row">
-			        <div class="col-sm-8 col-sm-offset-2">
+			        <div class="col-sm-8 col-md-8 col-lg-8 col-sm-offset-2">
 			            <div class="portfolio-col wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
 			                    <img src="img/cuchine-cover.jpg" alt="" class="img-responsive">
 			            </div>
+			            <div class="col-sm-12 col-lg-12"> 
 			            <h3><a href="#">Cuchine</a></h3>
                         <p class="cat">User Experience</p>
                         <p class="p">Cuchine was a collaborative project with a colleague for an online food delivery service website which serves fresh homemade meals to customers in their neighborhood. Complex function design with thesimplified interface to reach maximum satisfaction from customers, chefs, and the owners at the same time. Worked in Adobe Photoshop to get the pixel-perfect design for front-end and back-end developers. Such as HTML markup and style sheets.</p>
-                        
+                        </div>
+                        <div class="section-heading text-center"> 
+                        <span class="icon"><i class="fa fa-desktop"></i></span>
+                    </div>
+                        <div class="col-sm-12 col-lg-6"> 
+			            <h3><a href="#">Understanding</a></h3>
+                        <p class="p">Cuchine was a collaborative project with a colleague for an online food delivery service website which serves fresh homemade meals to customers in their neighborhood. Complex function design with thesimplified interface to reach maximum satisfaction from customers, chefs, and the owners at the same time. Worked in Adobe Photoshop to get the pixel-perfect design for front-end and back-end developers. Such as HTML markup and style sheets.</p>
+                        </div>
+                        <div class="col-sm-12 col-lg-6"> 
+			            <h3><a href="#">Prioritize</a></h3>
+                        <p class="p">Cuchine started in Sunset, a district located San Francisco. In order for people to use the service, they needed to input their zip code. It helped users go directly into the area which were available for them to pick up food or get food delivered to their homes. <br><br> Sorting and filters are second priority. It can be divided into day selection, delivery option, and personal diet preferences.</p>
+                        </div>
                         <div class="portfolio-col wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
-			                    <img src="img/cuchine-cover.jpg" alt="" class="img-responsive">
+			                    <img src="img/cuchine-flow.jpg" alt="" class="img-responsive">
 			            </div>
-			            <h3><a href="#">Cuchine</a></h3>
-                        <p class="cat">User Experience</p>
-                        <p class="p">Cuchine was a collaborative project with a colleague for an online food delivery service website which serves fresh homemade meals to customers in their neighborhood. Complex function design with thesimplified interface to reach maximum satisfaction from customers, chefs, and the owners at the same time. Worked in Adobe Photoshop to get the pixel-perfect design for front-end and back-end developers. Such as HTML markup and style sheets.</p>
+                        <div class="portfolio-col wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+			                    <img src="img/cuchine-map.jpg" alt="" class="img-responsive">
+			            </div>
+                        <div class="portfolio-col wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+			                    <img src="img/cuchine-sketch.jpg" alt="" class="img-responsive">
+			            </div>
+                        <div class="portfolio-col wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+			                    <img src="img/cuchine-ui-menu.jpg" alt="" class="img-responsive">
+			            </div>
+                        <div class="portfolio-col wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+			                    <img src="img/cuchine-ui-dish.jpg" alt="" class="img-responsive">
+			            </div>
+                        <div class="col-sm-12 col-lg-12"> 
+			            <h3><a href="#">Challenge</a></h3>
+                        <p class="p">Researching good user experience designs to adapt and apply into Cuchine website was a hard task. It made Cuchine become the latest user experience professional designed website. Making icons with cohesive design and colors was a good challenge to overcome. Such as “How it work” icons that tell a story and user-friendly filters that help customers get their food easily. New design for Daily menu which helps users to plan their meals over week easily. The check-out page that allows user to add notes into their orders.</p>
+                        </div>
                     </div>
 			     </div>
-			        
+                <div>
+                        <ul class="nav navbar-nav navbar-right margin10">
+                            <li><a href="#work">Prev</a></li>
+                            <li><a href="#about">Next</a></li>
+                        </ul>
+                    </div>
             </div>
 
        

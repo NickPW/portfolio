@@ -9,6 +9,19 @@
 	@include prefix(transition, all 200ms ease-in, webkit moz)
 }
 
+.btn-clear {
+    @extend .btn-theme;
+	border: 0px solid rgba(255,255,255,0.1);
+    background: none;
+    color: none;
+	
+	&:hover,
+	&:focus {
+		background: none;
+		color: none;
+	}
+}
+
 .btn-dark {
 	@extend .btn-theme;
 	border: 1px solid rgba(255,255,255,0.1);
