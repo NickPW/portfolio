@@ -318,12 +318,7 @@ label {
   margin-bottom: 40px;
 }
 
-/* line 63, ../scss/_other.scss */
-a.active {
-  color: #8fd0e0;
-}
-
-/* line 68, ../scss/_other.scss */
+/* line 64, ../scss/_other.scss */
 .icon {
   display: inline-block;
   font-size: 1.3em;
@@ -334,7 +329,7 @@ a.active {
   color: #8fd0e0;
 }
 
-/* line 79, ../scss/_other.scss */
+/* line 75, ../scss/_other.scss */
 .icon:before,
 .icon:after {
   display: inline-block;
@@ -345,28 +340,28 @@ a.active {
   width: 50px;
 }
 
-/* line 88, ../scss/_other.scss */
+/* line 84, ../scss/_other.scss */
 .icon:before {
   left: 0;
 }
 
-/* line 92, ../scss/_other.scss */
+/* line 88, ../scss/_other.scss */
 .icon:after {
   right: 0;
 }
 
-/* line 96, ../scss/_other.scss */
+/* line 92, ../scss/_other.scss */
 .icon-bg {
   color: white;
 }
 
-/* line 101, ../scss/_other.scss */
+/* line 97, ../scss/_other.scss */
 .icon-bg:before,
 .icon-bg:after {
   border-bottom-color: white;
 }
 
-/* line 105, ../scss/_other.scss */
+/* line 101, ../scss/_other.scss */
 .about-col .fa {
   width: 90px;
   height: 90px;
@@ -376,12 +371,12 @@ a.active {
   background-color: #f1f1f1;
 }
 
-/* line 114, ../scss/_other.scss */
+/* line 110, ../scss/_other.scss */
 .services-col {
   color: #8fd0e0;
 }
 
-/* line 118, ../scss/_other.scss */
+/* line 114, ../scss/_other.scss */
 .services-col h3 {
   color: #8fd0e0;
   margin-top: 0;
@@ -390,7 +385,7 @@ a.active {
   font-size: 1.75em;
 }
 
-/* line 126, ../scss/_other.scss */
+/* line 122, ../scss/_other.scss */
 .services-col p {
   color: #666666;
   letter-spacing: 1px;
@@ -398,7 +393,7 @@ a.active {
   line-height: 2;
 }
 
-/* line 133, ../scss/_other.scss */
+/* line 129, ../scss/_other.scss */
 .services-col .fa {
   width: 70px;
   height: 70px;
@@ -410,12 +405,12 @@ a.active {
   margin-bottom: 10px;
 }
 
-/* line 144, ../scss/_other.scss */
+/* line 140, ../scss/_other.scss */
 .contact-hours .fa {
   color: #8fd0e0;
 }
 
-/* line 148, ../scss/_other.scss */
+/* line 144, ../scss/_other.scss */
 .social-channels .fa {
   width: 40px;
   height: 40px;
@@ -426,32 +421,32 @@ a.active {
   margin-bottom: 10px;
 }
 
-/* line 158, ../scss/_other.scss */
+/* line 154, ../scss/_other.scss */
 .social-icon:hover a {
   background-color: #8fd0e0;
   color: white;
   transform: rotateY(360deg);
 }
 
-/* line 164, ../scss/_other.scss */
+/* line 160, ../scss/_other.scss */
 .author {
   color: #8fd0e0;
   font-size: 1.1em;
 }
 
-/* line 169, ../scss/_other.scss */
+/* line 165, ../scss/_other.scss */
 .item-img-wrap {
   position: relative;
   text-align: center;
   overflow: hidden;
 }
 
-/* line 175, ../scss/_other.scss */
+/* line 171, ../scss/_other.scss */
 .item-img-wrap img {
   transition: all 200ms linear;
 }
 
-/* line 178, ../scss/_other.scss */
+/* line 174, ../scss/_other.scss */
 .item-img-overlay {
   position: absolute;
   width: 100%;
@@ -460,7 +455,7 @@ a.active {
   top: 0;
 }
 
-/* line 185, ../scss/_other.scss */
+/* line 181, ../scss/_other.scss */
 .item-img-overlay span {
   width: 100%;
   height: 100%;
@@ -472,17 +467,17 @@ a.active {
   transition: opacity 250ms linear;
 }
 
-/* line 196, ../scss/_other.scss */
+/* line 192, ../scss/_other.scss */
 .item-img-wrap:hover .item-img-overlay span {
   opacity: 1;
 }
 
-/* line 199, ../scss/_other.scss */
+/* line 195, ../scss/_other.scss */
 .item-img-wrap:hover img {
   transform: scale(1.1);
 }
 
-/* line 208, ../scss/_other.scss */
+/* line 204, ../scss/_other.scss */
 .about-col,
 .team-col,
 .services-col,
@@ -492,7 +487,7 @@ a.active {
   margin-bottom: 40px;
 }
 
-/* line 212, ../scss/_other.scss */
+/* line 208, ../scss/_other.scss */
 .blog-col span {
   color: #666666;
   font-size: 0.9em;
@@ -500,7 +495,7 @@ a.active {
   margin-bottom: 20px;
 }
 
-/* line 219, ../scss/_other.scss */
+/* line 215, ../scss/_other.scss */
 .info-col {
   text-align: center;
   padding-left: 3%;
@@ -508,12 +503,12 @@ a.active {
 }
 
 @media (min-width: 768px) {
-  /* line 226, ../scss/_other.scss */
+  /* line 222, ../scss/_other.scss */
   .info-col {
     text-align: left;
   }
 }
-/* line 231, ../scss/_other.scss */
+/* line 227, ../scss/_other.scss */
 .scrollToTop {
   width: 40px;
   height: 40px;
@@ -536,14 +531,14 @@ a.active {
   transform: all 0.3s;
 }
 
-/* line 250, ../scss/_other.scss */
+/* line 246, ../scss/_other.scss */
 .scrollToTop:hover {
   text-decoration: none;
   opacity: 1;
   color: white;
 }
 
-/* line 255, ../scss/_other.scss */
+/* line 251, ../scss/_other.scss */
 .about-col .fa {
   width: 90px;
   height: 90px;
@@ -554,14 +549,14 @@ a.active {
   transition: 0.7s ease-in-out;
 }
 
-/* line 265, ../scss/_other.scss */
+/* line 261, ../scss/_other.scss */
 .about-col:hover .fa {
   background-color: #8fd0e0;
   color: white;
   transform: rotateY(360deg);
 }
 
-/* line 271, ../scss/_other.scss */
+/* line 267, ../scss/_other.scss */
 .services-col .fa {
   width: 70px;
   height: 70px;
@@ -574,19 +569,19 @@ a.active {
   transition: 0.7s ease-in-out;
 }
 
-/* line 283, ../scss/_other.scss */
+/* line 279, ../scss/_other.scss */
 .social-col:hover .fa {
   background-color: #8fd0e0;
   color: white;
   transform: rotateY(360deg);
 }
 
-/* line 291, ../scss/_other.scss */
+/* line 287, ../scss/_other.scss */
 .frame {
   vertical-align: middle;
 }
 
-/* line 295, ../scss/_other.scss */
+/* line 291, ../scss/_other.scss */
 .kz-photo {
   width: 900px;
   height: 300px;
@@ -598,7 +593,7 @@ a.active {
   left: 0;
 }
 
-/* line 303, ../scss/_other.scss */
+/* line 299, ../scss/_other.scss */
 .img-animate {
   position: absolute;
   top: 0px;
@@ -609,7 +604,7 @@ a.active {
   animation: photo-ani 3s forwards;
 }
 
-/* line 311, ../scss/_other.scss */
+/* line 307, ../scss/_other.scss */
 .font-line {
   z-index: 10;
   position: relative;
@@ -620,7 +615,7 @@ a.active {
   left: 0;
 }
 
-/* line 319, ../scss/_other.scss */
+/* line 315, ../scss/_other.scss */
 .line {
   fill: none;
   stroke: #333;
@@ -630,7 +625,7 @@ a.active {
   animation: line-ani 2s forwards;
 }
 
-/* line 329, ../scss/_other.scss */
+/* line 325, ../scss/_other.scss */
 .circle {
   fill: none;
   stroke: #333;
@@ -642,24 +637,24 @@ a.active {
 
 /* Keyframes */
 @keyframes line-ani {
-  /* line 342, ../scss/_other.scss */
+  /* line 338, ../scss/_other.scss */
   to {
     stroke-dashoffset: 0;
   }
 }
 
 @keyframes photo-ani {
-  /* line 347, ../scss/_other.scss */
+  /* line 343, ../scss/_other.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 350, ../scss/_other.scss */
+  /* line 346, ../scss/_other.scss */
   50% {
     opacity: 0;
   }
 
-  /* line 353, ../scss/_other.scss */
+  /* line 349, ../scss/_other.scss */
   100% {
     opacity: 1;
   }
