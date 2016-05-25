@@ -134,10 +134,12 @@ h4 {
 
 /* line 1, ../scss/_navbar.scss */
 .navbar {
-  min-height: 70px;
+  height: 70px;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
 }
 
-/* line 5, ../scss/_navbar.scss */
+/* line 7, ../scss/_navbar.scss */
 .navbar-default {
   background-color: white;
   font-family: "Maven Pro", sans-serif;
@@ -146,25 +148,30 @@ h4 {
   z-index: 100;
 }
 
-/* line 13, ../scss/_navbar.scss */
+/* line 15, ../scss/_navbar.scss */
 .navbar-default .navbar-brand {
   font-weight: 700;
   color: #333333;
   font-size: 1.5em;
 }
 
-/* line 19, ../scss/_navbar.scss */
+/* line 21, ../scss/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
   color: #333333;
 }
-/* line 22, ../scss/_navbar.scss */
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+/* line 23, ../scss/_navbar.scss */
+.navbar-default .navbar-nav > li > a:hover {
   color: #8fd0e0;
 }
 
-/* line 27, ../scss/_navbar.scss */
+/* line 28, ../scss/_navbar.scss */
 .navbar-default .navbar-nav > li > a.active {
   color: #8fd0e0;
+}
+
+/* line 32, ../scss/_navbar.scss */
+.nav-up {
+  top: -70px;
 }
 
 /* line 1, ../scss/_buttons.scss */
