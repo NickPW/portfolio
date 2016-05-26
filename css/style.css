@@ -253,7 +253,7 @@ label {
 /* line 1, ../scss/_other.scss */
 #home {
   background-image: url(../img/header-01-lgfix.jpg);
-  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
   padding: 90px 0;
   width: 100%;
