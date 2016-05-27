@@ -663,3 +663,8 @@ label {
   vertical-align: middle;
   overflow: hidden;
 }
+
+/* line 354, ../scss/_other.scss */
+.paddingoffset {
+  padding: -40px 0;
+}
