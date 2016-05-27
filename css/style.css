@@ -40,7 +40,7 @@ a {
 }
 /* line 13, ../scss/_scaffolding.scss */
 a:hover, a:focus {
-  color: #6cb9da;
+  color: #71c5e8;
   text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ h4 {
 
 /* line 40, ../scss/_typography.scss */
 .home-h1 {
-  color: #6cb9da;
+  color: #71c5e8;
   font-size: 2.5em;
   font-weight: 200;
   margin-top: 40px;
@@ -161,12 +161,12 @@ h4 {
 }
 /* line 23, ../scss/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #6cb9da;
+  color: #71c5e8;
 }
 
 /* line 28, ../scss/_navbar.scss */
 .navbar-default .navbar-nav > li > a.active {
-  color: #6cb9da;
+  color: #71c5e8;
 }
 
 /* line 1, ../scss/_buttons.scss */
@@ -209,23 +209,23 @@ h4 {
 
 /* line 38, ../scss/_buttons.scss */
 .btn-cta {
-  background-color: #6cb9da;
+  background-color: #71c5e8;
   color: white;
 }
 /* line 44, ../scss/_buttons.scss */
 .btn-cta:hover, .btn-cta:focus {
-  background-color: #ceebec;
+  background-color: #99d6ea;
   color: #666666;
 }
 
 /* line 50, ../scss/_buttons.scss */
 .btn-cta-o {
-  color: #6cb9da;
-  border: 1px solid #6cb9da;
+  color: #71c5e8;
+  border: 1px solid #71c5e8;
 }
 /* line 56, ../scss/_buttons.scss */
 .btn-cta-o:hover, .btn-cta-o:focus {
-  background-color: #6cb9da;
+  background-color: #71c5e8;
   color: white;
 }
 
@@ -335,7 +335,7 @@ label {
   width: 130px;
   margin: 0 auto;
   position: relative;
-  color: #6cb9da;
+  color: #71c5e8;
 }
 
 /* line 80, ../scss/_other.scss */
@@ -343,7 +343,7 @@ label {
 .icon:after {
   display: inline-block;
   content: "";
-  border-bottom: 1px solid #6cb9da;
+  border-bottom: 1px solid #71c5e8;
   position: absolute;
   top: 10px;
   width: 50px;
@@ -382,12 +382,12 @@ label {
 
 /* line 115, ../scss/_other.scss */
 .services-col {
-  color: #6cb9da;
+  color: #71c5e8;
 }
 
 /* line 119, ../scss/_other.scss */
 .services-col h3 {
-  color: #6cb9da;
+  color: #71c5e8;
   margin-top: 0;
   font-weight: 200;
   letter-spacing: 1px;
@@ -409,14 +409,14 @@ label {
   line-height: 70px;
   text-align: center;
   color: white;
-  background-color: #6cb9da;
+  background-color: #71c5e8;
   border-radius: 35px;
   margin-bottom: 10px;
 }
 
 /* line 145, ../scss/_other.scss */
 .contact-hours .fa {
-  color: #6cb9da;
+  color: #71c5e8;
 }
 
 /* line 149, ../scss/_other.scss */
@@ -432,7 +432,7 @@ label {
 
 /* line 159, ../scss/_other.scss */
 .social-icon:hover a {
-  background-color: #6cb9da;
+  background-color: #71c5e8;
   color: white;
   transform: rotateY(360deg);
 }
@@ -519,7 +519,7 @@ label {
   right: 10px;
   z-index: 999999;
   display: none;
-  background: #6cb9da;
+  background: #71c5e8;
   opacity: 0.8;
   -webkit-transform: all 0.3s;
   -moz-transform: all 0.3s;
@@ -546,7 +546,7 @@ label {
 
 /* line 254, ../scss/_other.scss */
 .about-col:hover .fa {
-  background-color: #6cb9da;
+  background-color: #71c5e8;
   color: white;
   transform: rotateY(360deg);
 }
@@ -558,7 +558,7 @@ label {
   line-height: 70px;
   text-align: center;
   color: white;
-  background-color: #6cb9da;
+  background-color: #71c5e8;
   border-radius: 35px;
   margin-bottom: 10px;
   transition: 0.7s ease-in-out;
@@ -566,7 +566,7 @@ label {
 
 /* line 272, ../scss/_other.scss */
 .social-col:hover .fa {
-  background-color: #6cb9da;
+  background-color: #71c5e8;
   color: white;
   transform: rotateY(360deg);
 }
@@ -653,4 +653,13 @@ label {
   100% {
     opacity: 1;
   }
+}
+
+/* line 346, ../scss/_other.scss */
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  overflow: hidden;
 }
